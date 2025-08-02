@@ -9,7 +9,7 @@ from PIL import Image
 st.title("Driver Drowsiness Detection (CNN + Eyes)")
 st.write("Upload a driver's face image to detect drowsiness.")
 
-model = load_model("cnn_model_face_drowsiness.h5")
+model = load_model("model/cnn_model_face_drowsiness.h5")
 
 labels = ["Drowsy", "Non-Drowsy"]
 
