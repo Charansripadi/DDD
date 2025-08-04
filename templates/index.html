@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drowsiness Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>🚗 Driver Drowsiness Detection</h1>
+    <div class="camera-container">
+        <video id="video" autoplay></video>
+    </div>
+    <p id="status">Loading camera and model...</p>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

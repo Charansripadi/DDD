@@ -1,6 +1,7 @@
-streamlit
-opencv-python
-numpy
+flask
 tensorflow
 keras
-Pillow
+opencv-python
+dlib
+numpy
+scipy
